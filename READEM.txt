@@ -1,0 +1,40 @@
+如何找到GTA V目录：
+
+Steam版：
+  1. 打开Steam
+  2. 右键GTA V → 属性 → 已安装文件
+  3. 点击 "浏览" 按钮
+  4. 这就是GTA V目录
+
+Epic版：
+  通常在 C:\Program Files\Epic Games\GTAV\
+
+其他版本：
+  找到 GTA5.exe 所在的文件夹
+
+────────────────────────────────────
+
+操作步骤：
+
+1. 在GTA V目录中找到 scripts 文件夹
+
+   如果没有 scripts 文件夹：
+   右键空白处 → 新建 → 文件夹 → 命名为 scripts
+
+2. 将本文件夹中的以下文件复制到 scripts 文件夹：
+   
+   ✅ SENTIENCE.dll
+   ✅ Newtonsoft.Json.dll
+
+最终目录结构应该是：（示例）
+
+Grand Theft Auto V/
+├── GTA5.exe
+├── ScriptHookV.dll
+├── dinput8.dll
+├── ScriptHookVDotNet.asi
+├── ScriptHookVDotNet2.dll
+├── ScriptHookVDotNet3.dll
+└── scripts/
+    ├── SENTIENCE.dll        ← 你复制的
+    └── Newtonsoft.Json.dll    ← 你复制的
